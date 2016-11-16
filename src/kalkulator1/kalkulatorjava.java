@@ -364,7 +364,38 @@ public class kalkulatorjava extends javax.swing.JFrame {
     }//GEN-LAST:event_cmdbagiActionPerformed
 
     private void cmdsmdenganActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cmdsmdenganActionPerformed
-        
+        switch (pilih){
+            case 1:
+                angka2 = Double.parseDouble(angka);
+                jumlah = angka1+angka2;
+                angka = Double.toString(jumlah);
+                text1.setText(angka);
+                break;
+                
+             case 2:
+                angka2 = Double.parseDouble(angka);
+                jumlah = angka1+angka2;
+                angka = Double.toString(jumlah);
+                text1.setText(angka);
+                break;
+            
+             case 3:
+                angka2 = Double.parseDouble(angka);
+                jumlah = angka1+angka2;
+                angka = Double.toString(jumlah);
+                text1.setText(angka);
+                break;
+                
+             case 4:
+                angka2 = Double.parseDouble(angka);
+                jumlah = angka1+angka2;
+                angka = Double.toString(jumlah);
+                text1.setText(angka);
+                break;
+             
+              default:
+              break;
+        }
     }//GEN-LAST:event_cmdsmdenganActionPerformed
 
     private void text1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_text1ActionPerformed
