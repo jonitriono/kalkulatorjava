@@ -319,7 +319,10 @@ public class kalkulatorjava extends javax.swing.JFrame {
     }//GEN-LAST:event_cmd5ActionPerformed
 
     private void cmdtambahActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cmdtambahActionPerformed
-        
+        angka1 = Double.parseDouble(angka);
+        text1.setText("+");
+        angka="";
+        pilih=1;
     }//GEN-LAST:event_cmdtambahActionPerformed
 
     private void cmd6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cmd6ActionPerformed
@@ -328,7 +331,10 @@ public class kalkulatorjava extends javax.swing.JFrame {
     }//GEN-LAST:event_cmd6ActionPerformed
 
     private void cmdkurangActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cmdkurangActionPerformed
-        
+     angka1 = Double.parseDouble(angka);
+        text1.setText("-");
+        angka="";
+        pilih=2;   
     }//GEN-LAST:event_cmdkurangActionPerformed
 
     private void cmdplusminusActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cmdplusminusActionPerformed
@@ -339,7 +345,10 @@ public class kalkulatorjava extends javax.swing.JFrame {
     }//GEN-LAST:event_cmdplusminusActionPerformed
 
     private void cmdkaliActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cmdkaliActionPerformed
-       
+       angka1 = Double.parseDouble(angka);
+        text1.setText("*");
+        angka="";
+        pilih=3;
     }//GEN-LAST:event_cmdkaliActionPerformed
 
     private void cmd7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cmd7ActionPerformed
@@ -348,7 +357,10 @@ public class kalkulatorjava extends javax.swing.JFrame {
     }//GEN-LAST:event_cmd7ActionPerformed
 
     private void cmdbagiActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cmdbagiActionPerformed
-        
+        angka1 = Double.parseDouble(angka);
+        text1.setText("/");
+        angka="";
+        pilih=4;
     }//GEN-LAST:event_cmdbagiActionPerformed
 
     private void cmdsmdenganActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cmdsmdenganActionPerformed
