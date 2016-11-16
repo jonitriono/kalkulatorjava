@@ -278,7 +278,8 @@ public class kalkulatorjava extends javax.swing.JFrame {
     }//GEN-LAST:event_cmd1ActionPerformed
 
     private void cmd9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cmd9ActionPerformed
-      
+      angka +="9";
+        text1.setText(angka);
     }//GEN-LAST:event_cmd9ActionPerformed
 
     private void cmd2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cmd2ActionPerformed
@@ -297,7 +298,8 @@ public class kalkulatorjava extends javax.swing.JFrame {
     }//GEN-LAST:event_cmd3ActionPerformed
 
     private void cmdkomaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cmdkomaActionPerformed
-        
+        angka +=".";
+        text1.setText(angka);
     }//GEN-LAST:event_cmdkomaActionPerformed
 
     private void cmd4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cmd4ActionPerformed
