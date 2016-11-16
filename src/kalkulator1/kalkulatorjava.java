@@ -32,7 +32,7 @@ public class kalkulatorjava extends javax.swing.JFrame {
         cmdtambah = new javax.swing.JButton();
         cmd6 = new javax.swing.JButton();
         cmdkurang = new javax.swing.JButton();
-        jButton17 = new javax.swing.JButton();
+        cmdplusminus = new javax.swing.JButton();
         cmdkali = new javax.swing.JButton();
         cmd7 = new javax.swing.JButton();
         cmdbagi = new javax.swing.JButton();
@@ -134,10 +134,10 @@ public class kalkulatorjava extends javax.swing.JFrame {
             }
         });
 
-        jButton17.setText("+/-");
-        jButton17.addActionListener(new java.awt.event.ActionListener() {
+        cmdplusminus.setText("+/-");
+        cmdplusminus.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton17ActionPerformed(evt);
+                cmdplusminusActionPerformed(evt);
             }
         });
 
@@ -217,7 +217,7 @@ public class kalkulatorjava extends javax.swing.JFrame {
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                                 .addComponent(cmdbagi, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE))
                             .addGroup(layout.createSequentialGroup()
-                                .addComponent(jButton17, javax.swing.GroupLayout.PREFERRED_SIZE, 96, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(cmdplusminus, javax.swing.GroupLayout.PREFERRED_SIZE, 96, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                                 .addComponent(cmdsmdengan, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE))
                             .addComponent(text1, javax.swing.GroupLayout.PREFERRED_SIZE, 202, javax.swing.GroupLayout.PREFERRED_SIZE)))
@@ -259,7 +259,7 @@ public class kalkulatorjava extends javax.swing.JFrame {
                     .addComponent(cmdbagi))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jButton17)
+                    .addComponent(cmdplusminus)
                     .addComponent(cmdsmdengan))
                 .addGap(0, 17, Short.MAX_VALUE))
         );
@@ -308,6 +308,8 @@ public class kalkulatorjava extends javax.swing.JFrame {
     }//GEN-LAST:event_cmd4ActionPerformed
 
     private void cmdclearActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cmdclearActionPerformed
+        angka +="";
+          text1.setText("0");
         
     }//GEN-LAST:event_cmdclearActionPerformed
 
@@ -329,9 +331,12 @@ public class kalkulatorjava extends javax.swing.JFrame {
         
     }//GEN-LAST:event_cmdkurangActionPerformed
 
-    private void jButton17ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton17ActionPerformed
-
-    }//GEN-LAST:event_jButton17ActionPerformed
+    private void cmdplusminusActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cmdplusminusActionPerformed
+        angka2 = Double.parseDouble(angka);
+        jumlah = 0-angka2;
+        angka= Double.toString(jumlah);
+        text1.setText(angka);
+    }//GEN-LAST:event_cmdplusminusActionPerformed
 
     private void cmdkaliActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cmdkaliActionPerformed
        
@@ -405,9 +410,9 @@ public class kalkulatorjava extends javax.swing.JFrame {
     private javax.swing.JButton cmdkali;
     private javax.swing.JButton cmdkoma;
     private javax.swing.JButton cmdkurang;
+    private javax.swing.JButton cmdplusminus;
     private javax.swing.JButton cmdsmdengan;
     private javax.swing.JButton cmdtambah;
-    private javax.swing.JButton jButton17;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JTextField text1;
     // End of variables declaration//GEN-END:variables

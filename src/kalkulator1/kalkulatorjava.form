@@ -65,7 +65,7 @@
                               <Component id="cmdbagi" min="-2" pref="46" max="-2" attributes="0"/>
                           </Group>
                           <Group type="102" alignment="0" attributes="0">
-                              <Component id="jButton17" min="-2" pref="96" max="-2" attributes="0"/>
+                              <Component id="cmdplusminus" min="-2" pref="96" max="-2" attributes="0"/>
                               <EmptySpace max="-2" attributes="0"/>
                               <Component id="cmdsmdengan" min="-2" pref="100" max="-2" attributes="0"/>
                           </Group>
@@ -118,7 +118,7 @@
               </Group>
               <EmptySpace type="unrelated" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="jButton17" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="cmdplusminus" alignment="3" min="-2" max="-2" attributes="0"/>
                   <Component id="cmdsmdengan" alignment="3" min="-2" max="-2" attributes="0"/>
               </Group>
               <EmptySpace min="0" pref="17" max="32767" attributes="0"/>
@@ -236,12 +236,12 @@
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="cmdkurangActionPerformed"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JButton" name="jButton17">
+    <Component class="javax.swing.JButton" name="cmdplusminus">
       <Properties>
         <Property name="text" type="java.lang.String" value="+/-"/>
       </Properties>
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton17ActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="cmdplusminusActionPerformed"/>
       </Events>
     </Component>
     <Component class="javax.swing.JButton" name="cmdkali">
