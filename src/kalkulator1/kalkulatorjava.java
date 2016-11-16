@@ -292,7 +292,8 @@ public class kalkulatorjava extends javax.swing.JFrame {
     }//GEN-LAST:event_cmd0ActionPerformed
 
     private void cmd3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cmd3ActionPerformed
-       
+       angka +="3";
+        text1.setText(angka);
     }//GEN-LAST:event_cmd3ActionPerformed
 
     private void cmdkomaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cmdkomaActionPerformed
@@ -300,7 +301,8 @@ public class kalkulatorjava extends javax.swing.JFrame {
     }//GEN-LAST:event_cmdkomaActionPerformed
 
     private void cmd4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cmd4ActionPerformed
-        
+        angka +="4";
+        text1.setText(angka);
     }//GEN-LAST:event_cmd4ActionPerformed
 
     private void cmdclearActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cmdclearActionPerformed
@@ -308,7 +310,8 @@ public class kalkulatorjava extends javax.swing.JFrame {
     }//GEN-LAST:event_cmdclearActionPerformed
 
     private void cmd5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cmd5ActionPerformed
-       
+       angka +="5";
+        text1.setText(angka);
     }//GEN-LAST:event_cmd5ActionPerformed
 
     private void cmdtambahActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cmdtambahActionPerformed
